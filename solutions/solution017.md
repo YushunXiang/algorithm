@@ -1,3 +1,6 @@
+# Problem 17 最少取几个数
+
+```java
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -89,3 +92,4 @@ class Main {
         System.out.println(new Main().minSelect(targetSum, nums));
     }
 }
+```
