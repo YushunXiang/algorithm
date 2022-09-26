@@ -2,4 +2,8 @@
 
 主要目的是用来备份代码以及linux端与windows端代码的同步
 
-[题解](./algorithm.md)
+题解目录 `./solutions`
+
+未AC的代码 `./draft`
+
+~~[题解汇总](./algorithm.md)~~ 已废弃

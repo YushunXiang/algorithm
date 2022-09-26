@@ -3,36 +3,39 @@ import java.util.Scanner;
 /**
  * @author ysxiang
  */
-public class Main{
+class Main {
+    public static int longestSubsequence(int[] arr, int difference) {
+        int maxLength = 1;
+        int length = 1;
+        for (int iter = 0; iter < arr.length - 1; iter++) {
+
+            if (arr[iter + 1] - arr[iter] == difference) {
+                length++;
+            } else {
+                if (length > maxLength) {
+                    maxLength = length;
+                }
+                length = 1;
+            }
+        }
+        if (length > maxLength) {
+            maxLength = length;
+        }
+        if (maxLength == 1) {
+            return 0;
+        } else {
+            return maxLength;
+        }
+    }
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
-        int k = scanner.nextInt();
-        System.out.print(new Main().getResult(n, k));
-    }
-
-    /**
-     * 递归
-     * @param n
-     * @param k
-     * @return
-     */
-    public int getResult(int n, int k) {
-        if (n == 1 && k == 1) {
-            return 0;
+        int[] arr = new int[n];
+        for (int i = 0; i < n; i++) {
+            arr[i] = scanner.nextInt();
         }
-        int middle = 1 << (n - 1); // 2 ^ (n - 1)
-        if (k == middle) {
-            return 1;
-        } else if (k < middle) {
-            return getResult(n - 1, k);
-        } else {
-            k = (middle << 1) - k;
-            return invert(getResult(n - 1, k));
-        }
-    }
-
-    public int invert(int var) {
-        return 1 - var;
+        int difference = scanner.nextInt();
+        System.out.println(longestSubsequence(arr, difference));
     }
 }
