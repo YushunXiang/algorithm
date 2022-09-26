@@ -1,3 +1,6 @@
+# Problem 14 归一次数
+
+``` java
 import java.util.Scanner;
 
 /**
@@ -28,3 +31,4 @@ class Main {
         System.out.println(backOne(n));
     }
 }
+```
