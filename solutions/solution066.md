@@ -18,7 +18,7 @@ class Main {
         for (int iter = 0; iter < n; iter++) {
             heights.add(scanner.nextInt());
         }
-        System.out.println(new Main().solution(heights));
+        System.out.println(new Main().isPowerOfFour(heights));
     }
 
     public int solution(Vector<Integer> heights) {

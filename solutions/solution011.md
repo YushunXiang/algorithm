@@ -1,7 +1,7 @@
 
 ## Problem 11 n = k^x ? （n是k的幂吗）
 
-``` java
+```java
 import java.util.*;
 
 /**

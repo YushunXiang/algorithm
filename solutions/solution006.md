@@ -1,6 +1,6 @@
 # Problem 06 连续整数求和
 
-``` java
+```java
 mport java.util.*;
 
 /**

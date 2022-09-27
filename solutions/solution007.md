@@ -1,6 +1,6 @@
 # Problem 07 个位数之和
 
-``` java
+```java
 import java.util.*;
 
 /**

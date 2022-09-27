@@ -1,6 +1,6 @@
 # Problem 14 归一次数
 
-``` java
+```java
 import java.util.Scanner;
 
 /**

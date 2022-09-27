@@ -1,6 +1,6 @@
 # Problem 04 拆分正偶数
 
-``` java
+```java
 import java.util.*;
 
 /**

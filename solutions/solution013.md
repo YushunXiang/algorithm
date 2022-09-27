@@ -1,6 +1,6 @@
 # Problem 13 前n项和
 
-``` java
+```java
 import java.util.*;
 
 public class Main {
