@@ -12,7 +12,6 @@ import java.util.Scanner;
 /**
  * @author ysxiang
  */
-import java.util.Scanner;
 
 class Main {
     public int rob(int[] nums) {
@@ -34,7 +33,7 @@ class Main {
         for (int i = 0; i < n; i++) {
             ans[i] = scanner.nextInt();
         }
-        System.out.println(new Main().rob(ans));
+        System.out.println(new Main().bigPow(ans));
     }
 }
 ```
