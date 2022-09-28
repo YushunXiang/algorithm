@@ -6,4 +6,3 @@
 
 未AC的代码 `./draft`
 
-~~[题解汇总](./algorithm.md)~~ 已废弃
