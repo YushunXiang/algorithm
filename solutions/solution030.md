@@ -1,6 +1,6 @@
 # Problem 30 快乐数列
 
-``` java
+```java
 import java.util.Scanner;
 
 public class Main {

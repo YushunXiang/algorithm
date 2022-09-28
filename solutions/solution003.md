@@ -1,6 +1,6 @@
 # Problem 03 一共存了多少钱
 
-``` java
+```java
 import java.util.*;
 
 public class Main {

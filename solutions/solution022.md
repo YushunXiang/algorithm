@@ -1,6 +1,6 @@
 # Problem 22 算一个斐波那契数列吧
 
-``` java
+```java
 import java.util.*;
 
 /**

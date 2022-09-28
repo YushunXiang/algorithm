@@ -10,10 +10,10 @@ public class Main {
     public static void main(String[] args) {
         Scanner snc = new Scanner(System.in);
         int n = snc.nextInt();
-        System.out.println(Hibonacci(n));
+        System.out.println(Fibonacci(n));
     }
 
-    public static int Hibonacci(int n) {
+    public static int Fibonacci(int n) {
         int H0 = 0, H1 = 1, H2 = 1;
         for (int iter = 0; iter < n / 3; iter++) {
             int temp0 = H0 + H1 + H2;

@@ -1,6 +1,6 @@
 # Problem 09 数组间的最大距离
 
-``` java
+```java
 import java.util.*;
 
 public class Main {

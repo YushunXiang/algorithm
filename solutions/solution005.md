@@ -1,6 +1,6 @@
 # Problem 05 多少个数字1
 
-``` java
+```java
 import java.util.*;
 
 /**

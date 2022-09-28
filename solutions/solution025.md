@@ -1,6 +1,6 @@
 # Problem 25 max(好因子)
 
-``` java
+```java
 import java.util.Scanner;
 
 /**

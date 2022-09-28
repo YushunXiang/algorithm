@@ -2,7 +2,7 @@
 
 感觉我这个方法算法太傻了，得用cpp才能过
 
-``` cpp
+```cpp
 /**
  * 因为有些题用java写会RE，但用cpp就没问题
  * @author ysxiang

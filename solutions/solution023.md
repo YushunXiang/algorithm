@@ -1,6 +1,6 @@
 # Problem 23 1出现了几次？
 
-``` java
+```java
 import java.util.*;
 
 /**

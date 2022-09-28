@@ -1,6 +1,6 @@
 # Problem 01 最有意义的值h
 
-``` java
+```java
 import java.util.*;
 
 public class Main {

@@ -1,6 +1,6 @@
 # Problem 08 2的幂
 
-``` java
+```java
 import java.util.*;
 
 /**

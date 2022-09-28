@@ -1,6 +1,6 @@
 # Problem 02 满足k的数对
 
-``` java
+```java
 import java.util.*;
 
 public class Main {
