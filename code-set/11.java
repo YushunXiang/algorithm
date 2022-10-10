@@ -22,6 +22,8 @@ public class Main {
             }
         } else if (n == k) {
             return 1;
+        } else if (k == 1) {
+            return 0;
         } else {
             for (int iter = k; iter <= n; iter *= k) {
                 if (iter < n) {
